@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">EpleteUI</string>
+<<<<<<< HEAD
     <string name="title_activity_dashboard">dashboard</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -9,4 +10,20 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+=======
+    <string name="Heading1">Welcome to Registration Page</string>
+    <string-array name="gender_list">
+        <item>---Select Gender---</item>
+        <item>Male</item>
+        <item>Female</item>
+
+    </string-array>
+
+    <string-array name="operator_list">
+        <item>---Select Operator---</item>
+        <item>123123123</item>
+        <item>1231231231</item>
+
+    </string-array>
+>>>>>>> 61dbd1c20dbafc01538d3b05141525084adfe361
 </resources>
