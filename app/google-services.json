@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:273751054345:android:e560566d68ce49b31440d8",
         "android_client_info": {
-          "package_name": "e_plete.android"
+          "package_name": "com.example.epleteui"
         }
       },
       "oauth_client": [

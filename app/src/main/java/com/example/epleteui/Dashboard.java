@@ -15,7 +15,7 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.example.epleteui.databinding.ActivityDashboardBinding;
 
-public class dashboard extends AppCompatActivity {
+public class Dashboard extends AppCompatActivity {
 
     private AppBarConfiguration appBarConfiguration;
     private ActivityDashboardBinding binding;
