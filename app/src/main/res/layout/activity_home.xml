@@ -57,11 +57,7 @@
             android:textColorHint="#858585" />
 
         <Button
-<<<<<<< HEAD
-            android:id="@+id/btn_login"
-=======
             android:id="@+id/btnLogin"
->>>>>>> 61dbd1c20dbafc01538d3b05141525084adfe361
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="80dp"
@@ -98,7 +94,7 @@
                 tools:ignore="DuplicateIds" />
         </LinearLayout>
 
-<<<<<<< HEAD
+
         <TextView
             android:id="@+id/textView_forgotPassword"
             android:layout_width="150dp"
@@ -109,8 +105,7 @@
             android:gravity="center"
             android:text="Forgot Password?" />
 
-=======
->>>>>>> 61dbd1c20dbafc01538d3b05141525084adfe361
+
     </LinearLayout>
 
 </LinearLayout>

@@ -87,8 +87,8 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:background="@drawable/circle_shape"
-                    android:padding="20dp"
-                    app:srcCompat="@drawable/operatoricon" />
+                    android:padding="20dp"/>
+<!--                    app:srcCompat="@drawable/operatoricon" />-->
 
                 <TextView
                     android:id="@+id/txt_driver3"

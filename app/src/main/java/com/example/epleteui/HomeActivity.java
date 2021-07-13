@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-<<<<<<< HEAD
+
 import android.os.Handler;
 import android.util.Log;
 import android.view.View;
@@ -22,13 +22,6 @@ import com.google.firebase.auth.FirebaseUser;
 
 import org.w3c.dom.Text;
 
-public class HomeActivity extends AppCompatActivity{
-
-
-
-    private FirebaseAuth mAuth;
-
-=======
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -37,16 +30,17 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
     TextView signup;
     Button btn_login;
->>>>>>> 61dbd1c20dbafc01538d3b05141525084adfe361
+
+    private FirebaseAuth mAuth;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
         getSupportActionBar().hide();
-<<<<<<< HEAD
+
         //Buttons
-        final Button login = (Button) findViewById(R.id.btn_login);
         mAuth = FirebaseAuth.getInstance();
 
         final TextView forgotPassword = findViewById(R.id.textView_forgotPassword);
@@ -54,12 +48,22 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         final EditText password = findViewById(R.id.editText_password);
 
 
-=======
         signup = findViewById( R.id.txt_Signup );
         btn_login = findViewById( R.id.btnLogin );
 
        signup.setOnClickListener(this );
         btn_login.setOnClickListener(this );
+
+        forgotPassword.setOnClickListener(v -> {
+            Intent intent = new Intent(this, ForgotPassword.class);
+            startActivity(intent);
+        });
+
+        btn_login.setOnClickListener(v -> {
+            String emailText = email.getText().toString().trim();
+            String passwordText = password.getText().toString().trim();
+            signIn(emailText, passwordText);
+        });
     }
 
     @Override
@@ -77,18 +81,8 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
             default:
                 finish();
         }
->>>>>>> 61dbd1c20dbafc01538d3b05141525084adfe361
 
-        forgotPassword.setOnClickListener(v -> {
-            Intent intent = new Intent(this, ForgotPassword.class);
-            startActivity(intent);
-        });
 
-        login.setOnClickListener(v -> {
-            String emailText = email.getText().toString().trim();
-            String passwordText = password.getText().toString().trim();
-            signIn(emailText, passwordText);
-        });
     }
 
 
@@ -115,8 +109,9 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
     private void updateUI(FirebaseUser user) {
         if(user != null) {
-            Intent intent = new Intent(this, Dashboard.class);
-            startActivity(intent);
+//            TODO: for the dashboard
+//            Intent intent = new Intent(this, Dashboard.class);
+//            startActivity(intent);
         }
         else
             Toast.makeText(HomeActivity.this, "Wrong Credentials", Toast.LENGTH_SHORT).show();
