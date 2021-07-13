@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">EpleteUI</string>
+    <string name="Heading1">Welcome to Registration Page</string>
+    <string-array name="gender_list">
+        <item>---Select Gender---</item>
+        <item>Male</item>
+        <item>Female</item>
+
+    </string-array>
+
+    <string-array name="operator_list">
+        <item>---Select Operator---</item>
+        <item>123123123</item>
+        <item>1231231231</item>
+
+    </string-array>
 </resources>

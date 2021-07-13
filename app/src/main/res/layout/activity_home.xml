@@ -57,7 +57,7 @@
             android:textColorHint="#777777" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="80dp"
@@ -67,6 +67,7 @@
             android:text="Login" />
 
         <LinearLayout
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center|center_horizontal|center_vertical"
@@ -75,7 +76,6 @@
             android:padding="20dp">
 
             <TextView
-                android:id="@+id/textView_Noaccount"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center|center_horizontal"
@@ -85,96 +85,15 @@
                 android:text="Don’t have an account yet?" />
 
             <TextView
-                android:id="@+id/btn_Signup"
+                android:id="@+id/txt_Signup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="Sign Up" />
+                android:text="Sign Up"
+                tools:ignore="DuplicateIds" />
         </LinearLayout>
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Welcome Back!"
-        android:textColor="#403A05"
-        android:textSize="30sp" />
-
-    <EditText
-        android:id="@+id/editText_Password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/textboxbg"
-        android:ems="10"
-        android:hint="Enter you password"
-        android:inputType="textPersonName"
-        android:padding="20px"
-        android:textColor="#5C5307"
-        android:textColorHint="#494204" />
-
-    <EditText
-        android:id="@+id/editText_Username"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/textboxbg"
-        android:ems="10"
-        android:hint="Enter your email"
-        android:inputType="textPersonName"
-        android:padding="20px"
-        android:textColor="#5C5307"
-        android:textColorHint="#3A3504" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Login" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center|center_horizontal|center_vertical"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:padding="20dp">
-
-        <TextView
-            android:id="@+id/textView_Noaccount"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center|center_horizontal"
-            android:layout_marginLeft="20dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="Don’t have an account yet?" />
-
-        <TextView
-            android:id="@+id/btn_Signup"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="1"
-            android:text="Sign Up" />
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/textView_Noaccount2"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center|center_horizontal"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:text="Don’t have an account yet?" />
-
-    <TextView
-        android:id="@+id/btn_Signup2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_weight="1"
-        android:text="Sign Up" />
 </LinearLayout>
