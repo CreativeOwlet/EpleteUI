@@ -109,6 +109,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
     private void updateUI(FirebaseUser user) {
         if(user != null) {
+            Toast.makeText(HomeActivity.this, "Login", Toast.LENGTH_SHORT).show();
 //            TODO: for the dashboard
 //            Intent intent = new Intent(this, Dashboard.class);
 //            startActivity(intent);

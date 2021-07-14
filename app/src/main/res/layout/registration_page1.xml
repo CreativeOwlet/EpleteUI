@@ -58,17 +58,6 @@
                     android:textColorHint="#676767" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
-                    android:background="@drawable/textboxbg"
-                    android:ems="10"
-                    android:hint="Username"
-                    android:inputType="textPersonName"
-                    android:padding="10dp" />
-
-                <EditText
                     android:id="@+id/editTextTextPersonName3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
