@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Keep going...."
+                android:text="Personal Information"
                 android:textSize="30sp"
                 android:padding="20dp"/>
 
@@ -55,7 +55,7 @@
                     android:background="@drawable/textboxbg"
 
                     android:ems="10"
-                    android:hint="Enter firstname"
+                    android:hint="First name"
                     android:inputType="textPersonName"
                     android:padding="10dp"
                     android:textColorHint="#676767" />
@@ -69,7 +69,7 @@
                     android:layout_marginBottom="20dp"
                     android:background="@drawable/textboxbg"
                     android:ems="10"
-                    android:hint="Enter Middle Name"
+                    android:hint="Middle name"
                     android:inputType="textPersonName"
                     android:padding="10dp" />
 
@@ -82,7 +82,7 @@
                     android:layout_marginBottom="20dp"
                     android:background="@drawable/textboxbg"
                     android:ems="10"
-                    android:hint="Enter Last Name"
+                    android:hint="Last name"
                     android:inputType="textPersonName"
                     android:padding="10dp" />
 
@@ -95,7 +95,7 @@
                     android:layout_marginBottom="20dp"
                     android:background="@drawable/textboxbg"
                     android:ems="10"
-                    android:hint="Enter Address"
+                    android:hint="Address"
                     android:inputType="textPersonName"
                     android:padding="10dp" />
                 <EditText

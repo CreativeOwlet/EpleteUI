@@ -1,21 +1,17 @@
 package com.example.epleteui;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
 
-import com.example.epleteui.fragments.PageFragment;
-import com.example.epleteui.fragments.PageFragment2;
-import com.example.epleteui.fragments.PageFragment3;
-import com.example.epleteui.fragments.PageFragment4;
-import com.example.epleteui.fragments.PageFragment5;
+import com.example.epleteui.registration_fragments.PageFragment;
+import com.example.epleteui.registration_fragments.PageFragment2;
+import com.example.epleteui.registration_fragments.PageFragment3;
+import com.example.epleteui.registration_fragments.PageFragment4;
+import com.example.epleteui.registration_fragments.PageFragment5;
 
 import java.util.ArrayList;
 import java.util.List;

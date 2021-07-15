@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "273751054345",
+    "project_id": "e-plete",
+    "storage_bucket": "e-plete.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273751054345:android:e560566d68ce49b31440d8",
+        "android_client_info": {
+          "package_name": "com.example.epleteui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273751054345-76j7sbtu3lqbo2lcm16cpge8shr03hok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9bM8q8n7iRiznZc6z82jjRT5DbwQoPTA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273751054345-76j7sbtu3lqbo2lcm16cpge8shr03hok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,4 @@
-package com.example.epleteui.fragments;
+package com.example.epleteui.registration_fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

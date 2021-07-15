@@ -53,15 +53,18 @@
                     android:entries="@array/gender_list"
                     android:padding="10dp" />
 
-                <EditText
-                    android:id="@+id/editTextDate2"
+                <TextView
+                    android:id="@+id/textView_date"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:layout_marginBottom="20dp"
+                    android:layout_height="41dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
-                    android:inputType="date" />
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/textboxbg"
+                    android:ems="10"
+                    android:padding="10dp"
+                    android:textSize="18dp"
+                    android:hint="Birth Date" />
 
                 <EditText
                     android:id="@+id/editTextTextPersonName2"

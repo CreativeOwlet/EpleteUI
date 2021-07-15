@@ -1,14 +1,11 @@
-package com.example.epleteui.fragments;
+package com.example.epleteui.registration_fragments;
 
-import android.app.DatePickerDialog;
-import android.app.Dialog;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.DatePicker;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -18,7 +15,7 @@ import com.example.epleteui.R;
 
 import java.util.Calendar;
 
-public class PageFragment3 extends Fragment {
+public class PageFragment4 extends Fragment {
     private DatePicker datePicker;
     private Calendar calendar;
     private TextView dateView;
@@ -29,7 +26,7 @@ public class PageFragment3 extends Fragment {
                              @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
         ViewGroup view = (ViewGroup)inflater
-                .inflate(  R.layout.registration_page3,container
+                .inflate(  R.layout.registration_page4,container
                         ,false );
         
         return view;

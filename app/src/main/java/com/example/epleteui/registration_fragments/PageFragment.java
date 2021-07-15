@@ -1,4 +1,4 @@
-package com.example.epleteui.fragments;
+package com.example.epleteui.registration_fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,7 +11,8 @@ import androidx.fragment.app.Fragment;
 
 import com.example.epleteui.R;
 
-public class PageFragment2 extends Fragment {
+public class PageFragment extends Fragment {
+
 
     @Nullable
     @Override
@@ -19,8 +20,10 @@ public class PageFragment2 extends Fragment {
                              @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
         ViewGroup view = (ViewGroup)inflater
-                .inflate(  R.layout.registration_page2,container
+                .inflate(  R.layout.registration_page1,container
                         ,false );
+
         return view;
+
     }
 }

@@ -10,9 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EpleteUI">
 
-        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".ForgotPassword"></activity>
+        <activity android:name=".HomeActivity" />
         <activity android:name=".RegistrationSelection"></activity>
         <activity android:name=".RegistrationForm"></activity>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
