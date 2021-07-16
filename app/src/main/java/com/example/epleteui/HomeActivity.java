@@ -48,43 +48,40 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         final EditText password = findViewById(R.id.editText_password);
 
 
-        signup = findViewById( R.id.txt_Signup );
-        btn_login = findViewById( R.id.btnLogin );
+        signup = findViewById(R.id.txt_Signup);
+        btn_login = findViewById(R.id.btnLogin);
 
-       signup.setOnClickListener(this );
-<<<<<<< HEAD
+        signup.setOnClickListener(this);
+
 //        btn_login.setOnClickListener(this );
 
 
         //Forgot Password new Activity
-=======
-        btn_login.setOnClickListener(this );
 
->>>>>>> eaba0788eb17cdd25a472237c0f6065687b40e88
         forgotPassword.setOnClickListener(v -> {
             Intent intent = new Intent(this, ForgotPassword.class);
             startActivity(intent);
         });
 
-<<<<<<< HEAD
-        //For the login button
-=======
->>>>>>> eaba0788eb17cdd25a472237c0f6065687b40e88
+
         btn_login.setOnClickListener(v -> {
             String emailText = email.getText().toString().trim();
             String passwordText = password.getText().toString().trim();
             signIn(emailText, passwordText);
         });
+
     }
 
+
+
     @Override
-    public void onClick(View v) {
-        int id =v.getId() ;
+    public void onClick (View v){
+        int id = v.getId();
         Intent intent = null;
-        switch (id){
+        switch (id) {
             case R.id.txt_Signup:
-                intent = new Intent( HomeActivity.this, RegistrationSelection.class );
-                startActivity( intent );
+                intent = new Intent(HomeActivity.this, RegistrationSelection.class);
+                startActivity(intent);
                 break;
 //            case R.id.btnLogin:
 //                intent = new Intent( HomeActivity.this, RegistrationForm.class );
@@ -94,12 +91,10 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         }
 
 
-<<<<<<< HEAD
     }
 
 
-
-    private void signIn(String email, String password) {
+    private void signIn (String email, String password){
         mAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
@@ -120,51 +115,13 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void updateUI(FirebaseUser user) {
-        if(user != null) {
+        if (user != null) {
             Toast.makeText(HomeActivity.this, "Login", Toast.LENGTH_SHORT).show();
 //            TODO: for the dashboard
 //            Intent intent = new Intent(this, Dashboard.class);
 //            startActivity(intent);
-        }
-        else
+        } else
             Toast.makeText(HomeActivity.this, "Wrong Credentials", Toast.LENGTH_SHORT).show();
     }
 
-=======
-    }
-
-
-
-    private void signIn(String email, String password) {
-        mAuth.signInWithEmailAndPassword(email, password)
-                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful()) {
-                            // Sign in success, update UI with the signed-in user's information
-                            FirebaseUser user = mAuth.getCurrentUser();
-                            updateUI(user);
-                        } else {
-                            // If sign in fails, display a message to the user.
-                            Toast.makeText(HomeActivity.this, email + password,
-                                    Toast.LENGTH_LONG).show();
-                            updateUI(null);
-                        }
-                    }
-                });
-
-    }
-
-    private void updateUI(FirebaseUser user) {
-        if(user != null) {
-            Toast.makeText(HomeActivity.this, "Login", Toast.LENGTH_SHORT).show();
-//            TODO: for the dashboard
-//            Intent intent = new Intent(this, Dashboard.class);
-//            startActivity(intent);
-        }
-        else
-            Toast.makeText(HomeActivity.this, "Wrong Credentials", Toast.LENGTH_SHORT).show();
-    }
-
->>>>>>> eaba0788eb17cdd25a472237c0f6065687b40e88
 }

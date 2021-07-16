@@ -87,12 +87,10 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:background="@drawable/circle_shape"
-<<<<<<< HEAD
-                    android:padding="20dp"/>
-=======
+
+
                     android:padding="20dp"
                     app:srcCompat="@drawable/operatoricon" />
->>>>>>> eaba0788eb17cdd25a472237c0f6065687b40e88
 <!--                    app:srcCompat="@drawable/operatoricon" />-->
 
                 <TextView

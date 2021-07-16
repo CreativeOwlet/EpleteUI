@@ -58,11 +58,8 @@
                     android:textColorHint="#676767" />
 
                 <EditText
-<<<<<<< HEAD
+
                     android:id="@+id/editText_registrationPassword"
-=======
-                    android:id="@+id/editTextTextPersonName3"
->>>>>>> eaba0788eb17cdd25a472237c0f6065687b40e88
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"

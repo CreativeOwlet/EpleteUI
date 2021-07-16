@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EpleteUI">
 
-<<<<<<< HEAD
+
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="com.example.epleteui.fileprovider"
@@ -26,18 +26,15 @@
                 android:resource="@xml/file_paths" />
         </provider>
 
-=======
->>>>>>> eaba0788eb17cdd25a472237c0f6065687b40e88
-        <activity android:name=".ForgotPassword"></activity>
-        <activity android:name=".HomeActivity" />
-        <activity android:name=".RegistrationSelection"></activity>
-        <activity android:name=".RegistrationForm"></activity>
 
-<<<<<<< HEAD
-        <activity android:name=".MainActivity" >
-=======
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".RegistrationSelection" />
+        <activity android:name=".RegistrationForm" />
+
+
         <activity android:name=".MainActivity">
->>>>>>> eaba0788eb17cdd25a472237c0f6065687b40e88
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
