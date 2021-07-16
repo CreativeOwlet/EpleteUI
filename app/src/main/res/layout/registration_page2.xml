@@ -45,7 +45,7 @@
                 android:padding="5dp">
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName"
+                    android:id="@+id/editText_firstName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
@@ -61,7 +61,7 @@
                     android:textColorHint="#676767" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName2"
+                    android:id="@+id/editText_middleName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
@@ -74,7 +74,7 @@
                     android:padding="10dp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName3"
+                    android:id="@+id/editText_lastName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
@@ -87,7 +87,7 @@
                     android:padding="10dp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName4"
+                    android:id="@+id/editText_address"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
@@ -99,7 +99,7 @@
                     android:inputType="textPersonName"
                     android:padding="10dp" />
                 <EditText
-                    android:id="@+id/editTextTextPersonName5"
+                    android:id="@+id/editText_mobileNumber"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
@@ -108,8 +108,14 @@
                     android:background="@drawable/textboxbg"
                     android:ems="10"
                     android:hint="Mobile Number"
-                    android:inputType="textPersonName"
+                    android:inputType="number"
                     android:padding="10dp" />
+
+                <Button
+                    android:id="@+id/btn_next1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Next" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

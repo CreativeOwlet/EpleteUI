@@ -52,13 +52,16 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         btn_login = findViewById( R.id.btnLogin );
 
        signup.setOnClickListener(this );
-        btn_login.setOnClickListener(this );
+//        btn_login.setOnClickListener(this );
 
+
+        //Forgot Password new Activity
         forgotPassword.setOnClickListener(v -> {
             Intent intent = new Intent(this, ForgotPassword.class);
             startActivity(intent);
         });
 
+        //For the login button
         btn_login.setOnClickListener(v -> {
             String emailText = email.getText().toString().trim();
             String passwordText = password.getText().toString().trim();
@@ -75,9 +78,9 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                 intent = new Intent( HomeActivity.this, RegistrationSelection.class );
                 startActivity( intent );
                 break;
-            case R.id.btnLogin:
-                intent = new Intent( HomeActivity.this, RegistrationForm.class );
-                startActivity( intent );
+//            case R.id.btnLogin:
+//                intent = new Intent( HomeActivity.this, RegistrationForm.class );
+//                startActivity( intent );
             default:
                 finish();
         }

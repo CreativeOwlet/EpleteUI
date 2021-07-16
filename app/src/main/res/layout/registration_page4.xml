@@ -56,7 +56,7 @@
                     android:text="Tap the icon below to take a selfie" />
 
                 <ImageView
-                    android:id="@+id/imageView3"
+                    android:id="@+id/image_camera"
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:layout_margin="10dp"
@@ -72,12 +72,18 @@
                     android:text="2. Tap the icon below to upload  any government ID/ Valid ID" />
 
                 <ImageView
-                    android:id="@+id/imageView4"
+                    android:id="@+id/image_validID"
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:layout_margin="10dp"
                     android:background="@drawable/circle_shape"
                     app:srcCompat="@drawable/govfileicon" />
+
+                <Button
+                    android:id="@+id/btn_next3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Next" />
 
             </LinearLayout>
         </LinearLayout>
