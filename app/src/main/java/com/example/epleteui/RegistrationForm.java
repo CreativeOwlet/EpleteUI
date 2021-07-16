@@ -13,7 +13,10 @@ import com.example.epleteui.registration_fragments.PageFragment2;
 import com.example.epleteui.registration_fragments.PageFragment3;
 import com.example.epleteui.registration_fragments.PageFragment4;
 import com.example.epleteui.registration_fragments.PageFragment5;
+<<<<<<< HEAD
 
+=======
+>>>>>>> eaba0788eb17cdd25a472237c0f6065687b40e88
 
 import java.util.ArrayList;
 import java.util.List;

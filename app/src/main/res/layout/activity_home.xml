@@ -67,6 +67,20 @@
             android:text="Login" />
 
         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_forgotPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Forgot Password?" />
+        </LinearLayout>
+
+        <LinearLayout
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -95,6 +109,7 @@
         </LinearLayout>
 
 
+<<<<<<< HEAD
         <TextView
             android:id="@+id/textView_forgotPassword"
             android:layout_width="150dp"
@@ -106,6 +121,8 @@
             android:text="Forgot Password?" />
 
 
+=======
+>>>>>>> eaba0788eb17cdd25a472237c0f6065687b40e88
     </LinearLayout>
 
 </LinearLayout>

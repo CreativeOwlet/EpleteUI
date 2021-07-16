@@ -55,6 +55,22 @@
 
                 <TextView
                     android:id="@+id/textView_date"
+<<<<<<< HEAD
+=======
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/textboxbg"
+                    android:ems="10"
+                    android:padding="10dp"
+                    android:textSize="18dp"
+                    android:hint="Birth Date" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName2"
+>>>>>>> eaba0788eb17cdd25a472237c0f6065687b40e88
                     android:layout_width="match_parent"
                     android:layout_height="41dp"
                     android:layout_marginLeft="20dp"

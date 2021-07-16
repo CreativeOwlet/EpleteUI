@@ -52,16 +52,24 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         btn_login = findViewById( R.id.btnLogin );
 
        signup.setOnClickListener(this );
+<<<<<<< HEAD
 //        btn_login.setOnClickListener(this );
 
 
         //Forgot Password new Activity
+=======
+        btn_login.setOnClickListener(this );
+
+>>>>>>> eaba0788eb17cdd25a472237c0f6065687b40e88
         forgotPassword.setOnClickListener(v -> {
             Intent intent = new Intent(this, ForgotPassword.class);
             startActivity(intent);
         });
 
+<<<<<<< HEAD
         //For the login button
+=======
+>>>>>>> eaba0788eb17cdd25a472237c0f6065687b40e88
         btn_login.setOnClickListener(v -> {
             String emailText = email.getText().toString().trim();
             String passwordText = password.getText().toString().trim();
@@ -86,6 +94,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         }
 
 
+<<<<<<< HEAD
     }
 
 
@@ -121,4 +130,41 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
             Toast.makeText(HomeActivity.this, "Wrong Credentials", Toast.LENGTH_SHORT).show();
     }
 
+=======
+    }
+
+
+
+    private void signIn(String email, String password) {
+        mAuth.signInWithEmailAndPassword(email, password)
+                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()) {
+                            // Sign in success, update UI with the signed-in user's information
+                            FirebaseUser user = mAuth.getCurrentUser();
+                            updateUI(user);
+                        } else {
+                            // If sign in fails, display a message to the user.
+                            Toast.makeText(HomeActivity.this, email + password,
+                                    Toast.LENGTH_LONG).show();
+                            updateUI(null);
+                        }
+                    }
+                });
+
+    }
+
+    private void updateUI(FirebaseUser user) {
+        if(user != null) {
+            Toast.makeText(HomeActivity.this, "Login", Toast.LENGTH_SHORT).show();
+//            TODO: for the dashboard
+//            Intent intent = new Intent(this, Dashboard.class);
+//            startActivity(intent);
+        }
+        else
+            Toast.makeText(HomeActivity.this, "Wrong Credentials", Toast.LENGTH_SHORT).show();
+    }
+
+>>>>>>> eaba0788eb17cdd25a472237c0f6065687b40e88
 }

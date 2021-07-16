@@ -9,13 +9,14 @@
     <color name="intro_description_color">#656565</color>
 
     <color name="Darkyellow">#F6F175</color>
+    <color name="Yellowish">#FEFFC6</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="Yellowish">#FEFFC6</color>
+
 
     <color name="purple">#ac3ef9</color>
     <color name="blackText">#0d0e15</color>
